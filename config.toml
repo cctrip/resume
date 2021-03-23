@@ -1,3 +1,231 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# Page settings
+
+baseURL = "https://cctrip.github.io/resume"
+languageCode = "en"
+title = "CC's Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "CC"
+        tagline = "DevOps Engineer"
+        avatar = "cc.jpg"
+
+    [params.contact]
+        enable = true
+        location = "杭州"
+
+        [[params.contact.list]]
+        icon = "fab fa-weixin"
+        url = "wechat:#"
+        text = "zcc0388"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "zcc0388@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://cctrip.github.io"
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "技能"
+        [[params.skills.list.items]]
+        details = "Golang/Shell/Lua/Python"
+        [[params.skills.list.items]]
+        details = "TCP/HTTP/TLS/DNS"
+        [[params.skills.list.items]]
+        details = "Kubernetes/Docker"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/Redis"
+        [[params.skills.list.items]]
+        details = "Prometheus/Zabbix"
+        [[params.skills.list.items]]
+        details = "Linux/CentOS/Ubuntu"
+        [[params.skills.list.items]]
+        details = "Cloud/AWS/阿里云/腾讯云"
+        [[params.skills.list.items]]
+        details = "LVS/Openresty/Traefik"
+
+        [[params.skills.list]]
+        title = "软技能"
+        [[params.skills.list.items]]
+        details = "良好的沟通能力"
+        [[params.skills.list.items]]
+        details = "良好的表达能力"
+        [[params.skills.list.items]]
+        details = "工作效率高"
+        [[params.skills.list.items]]
+        details = "时间管理"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "网络工程,本科"
+        university = "福建工程学院"
+        dates = "2009 - 2013"
+
+
+    [params.awards]
+        enable = false
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "徒步"
+        [[params.interests.list]]
+        name = "阅读"
+        [[params.interests.list]]
+        name = "音乐"
+        [[params.interests.list]]
+        name = "旅行"
+
+
+
+    [params.summary]
+        enable = true
+        text = "8年运维经验，专注于DevOps领域，有5年运维开发经验，有3年kubernetes容器化相关经验。"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "资深运维开发工程师"
+        dates = "2019.03 - Present"
+        company = "嘉云数据"
+        details = ""
+        [[params.experience.list.items]]
+        details = "负责阿里云、腾讯云以及AWS资源管理"
+        [[params.experience.list.items]]
+        details = "参与从0到1运维平台建设，主导资源自动化系统和监控系统的建设"
+        [[params.experience.list.items]]
+        details = "参与从0到1容器化平台建设，主导云平台的k8s集群搭建，以及基于k8s做ingress和监控相关系统建设"
+        [[params.experience.list.items]]
+        details = "接入层nginx搭建维护和ngx_lua功能开发，主要为线上防攻击脚本和打点系统入口处理"
+        [[params.experience.list.items]]
+        details = "为技术部门和大数据部门提供系统、网络、第三方应用、云服务、nginx等方面的技术支持"
+
+        [[params.experience.list]]
+        title = "高级技术支持工程师"
+        dates = "2015.06 - 2018.12"
+        company = "网宿科技"
+        details = ""
+        [[params.experience.list.items]]
+        details = "负责运维平台等web平台的运维和agent模块(golang)的开发"
+        [[params.experience.list.items]]
+        details = "负责大数据系统的运维"
+        [[params.experience.list.items]]
+        details = "为其他部门提供系统、网络、应用等方面的技术支持"
+        [[params.experience.list.items]]
+        details = "运维相关新技术研究与实践"
+
+        [[params.experience.list]]
+        title = "运维工程师"
+        dates = "2013.09 - 2015.04"
+        company = "神州鹰"
+        details = "通过阿里云平台(ECS、RDS、SLB)进行视频监控、web后台服务系统的运维工作"
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Cloudms自动化系统"
+        meta = "自研"
+        [[params.projects.list.items]]
+        details = "项目背景：有阿里云和AWS两个云服务平台以及多个管理平台，人工创建资源效率低，不规范，资源归属乱，成本统计困难，需要整合，提高效率，降低成本。"
+        [[params.projects.list.items]]
+        details = "项目描述：Cloudms基于golang编写，利用云平台的API接口以及管理平台的接口，串连整个基础资源的生命周期管理，并实现简单的成本控制。"
+        [[params.projects.list.items]]
+        details = "项目职责：1、主导运维基础元规范定制，2、独自完成cloudms系统的开发，3、与多个管理平台对接、沟通，4、利用数据推进不同部门的成本优化。"
+        [[params.projects.list.items]]
+        details = "项目效果：上线至今已完成5000个以上的基础资源的创建和下架，节省95%左右的时间成本，并输出资源成本展示平台、低资源使用消息推送。"
+
+        [[params.projects.list]]
+        title = "Prometheus监控系统"
+        meta = "二次开发"
+        [[params.projects.list.items]]
+        details = "项目背景：有阿里云和AWS两个云服务平台，监控数据查看麻烦，告警配置麻烦，需要整合。"
+        [[params.projects.list.items]]
+        details = "项目描述：基于开源项目Prometheus做二次开发，实现整个监控系统的统一。"
+        [[params.projects.list.items]]
+        details = "项目职责：1、独自完成Prometheus集群搭建和监控展示配置，2、独自完成注册器(用于客户端自动注册)、webhook(用于接入公司的统一微信告警系统)、阈值平台(用于用户自定义告警阈值)的开发，3、主导云服务监控迁移至Prometheus监控系统工作。"
+        [[params.projects.list.items]]
+        details = "项目效果：接入2000个以上资源监控，完成监控大盘配置，帮助业务快速定位问题。"
+
+        [[params.projects.list]]
+        title = "大禹项目"
+        meta = "二次开发"
+        [[params.projects.list.items]]
+        details = "项目背景：基于kubernetes建设paas平台"
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/cctrip"
+        title = "cctrip"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/zcc0388"
+        title = "@zcc0388"
+
+
+
+
+
