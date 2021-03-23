@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CC&#39;s Resume</title>
-    <link>http://example.org/</link>
+    <link>https://cctrip.github.io/resume/</link>
     <description>Recent content on CC&#39;s Resume</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="https://cctrip.github.io/resume/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
