@@ -116,7 +116,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "专注于DevOps领域，8年工作经验，在Linux、网络、Kubernetes有比较深入的研究"
+        text = "专注于DevOps领域，8年工作经验，在Linux、网络、Kubernetes等方面有比较深入的研究"
 
 
     [params.experience]
