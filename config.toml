@@ -116,27 +116,27 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "专注于DevOps领域，8年工作经验，在Linux、网络、Kubernetes等方面有比较深入的研究"
+        text = "专注于DevOps领域，9年工作经验，在Linux、网络、Kubernetes等方面有比较深入的研究"
 
 
     [params.experience]
         enable = true
 
         [[params.experience.list]]
-        title = "资深运维开发工程师"
+        title = "技术专家 & DevOps团队Leader"
         dates = "2019.03 - Present"
-        company = "嘉云数据"
+        company = "英祐科技"
         details = ""
         [[params.experience.list.items]]
         details = "负责阿里云、腾讯云以及AWS资源管理"
         [[params.experience.list.items]]
         details = "参与从0到1运维平台建设，主导资源自动化系统和监控系统的建设"
         [[params.experience.list.items]]
-        details = "参与从0到1容器化平台建设，主导云平台的k8s集群搭建，以及基于k8s做ingress和监控系统建设"
+        details = "主导从0到1容器化平台建设"
         [[params.experience.list.items]]
         details = "接入层openresty搭建维护和ngx_lua功能开发，主要为waf功能和打点功能实现"
         [[params.experience.list.items]]
-        details = "为技术部门和大数据部门提供系统、网络、第三方应用、云服务、nginx等方面的技术支持"
+        details = "为技术部门和大数据部门提供系统、网络、第三方应用、云服务、容器、nginx等方面的技术支持"
 
         [[params.experience.list]]
         title = "高级技术支持工程师"
@@ -188,7 +188,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.list]]
         title = "容器平台-大禹项目"
-        meta = "二次开发"
+        meta = "自研 & 二次开发"
         [[params.projects.list.items]]
         details = "项目背景：机器资源使用浪费、项目多、各种环境多，用户不熟悉k8s，需要节省成本，并减少用户的使用难度和提升开发测试效率。"
         [[params.projects.list.items]]
